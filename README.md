@@ -65,7 +65,7 @@
 * **4. Inheritance**
 
 
-### **Enheritance**
+### **Encapsulation**
 ***
    - **Wrapping up of Data Members and Member Functions**
    - Bundling data witth methods that can operate within a class
@@ -77,9 +77,9 @@
    - Membeers of other classes can interact with the attributes of another object through its methods
 
 - **Methods**
-| **Getters Methods** | **Setters Methods** |
-|---------------------|---------------------|
-| For retrieving information | For setting & changing information |
+- | **Getters Methods** | **Setters Methods** |
+  |---------------------|---------------------|
+  | For retrieving information | For setting & changing information |
 
 - ```code
      h1.getName();
