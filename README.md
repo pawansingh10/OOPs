@@ -22,12 +22,12 @@
 - So Programmers start using the group of Primitive data types
 
 - **Structure & Array**
-| Structures | Arrays |
-|------------|---------|
-| Stores groups of data | Stores groups of data|
-| Can store different types of data | Can store only similar types of data|
-| Heterogeneous | Homogeneous|
-| store int, char, bool or even another struct |stores only similar data types|
+- | Structures | Arrays |
+  |------------|---------|
+  | Stores groups of data | Stores groups of data|
+  | Can store different types of data | Can store only similar types of data| 
+  | Heterogeneous | Homogeneous|
+  | store int, char, bool or even another struct |stores only similar data types|
 
 ### Issues with Structures
 ***
@@ -108,7 +108,7 @@
 ***
    - **Only Showing Essesntial Details & Keep everything else hidden**
    
-- **Car**
+- **Car Example**
    - |**Essesntial Details**|
      |----------------------|
      | How the steering wheel steers the car|
