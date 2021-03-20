@@ -182,5 +182,5 @@
 
    - |      |      |     Food |      |      |
      |------|----------|------|------|------|
-     |      | Fruit|         |      |Vegetable|  | 
-     |Mango |  | Apple |            | Barcoli |  | 
+     |      | Fruit|         | Vegetable|  | 
+     |Mango |  | Apple |   Barcoli| |
