@@ -117,11 +117,70 @@
      | How much car speed|
 
 
+- It extends to OOPs
+
+- The Classes you create should act like yyour car, **Users of your Classes should not worry about the inner details of those classes**
+
+- Classes should not directly interact with other classes data 
+
+- Abstraction is very inportant when you working on your program incrementlly
+- | Section-1 | -> | Section-2 | -> | Section-3 |
+  |-----------|----|-----------|----|-----------|
+  
+- Modern programs are very complex to the point where **multiple programmers tends to work on one program**
+- In this case, It is the best if the section that you work on is able to to function without knowledge of inner working of your colleague's's section
 
 
+### Abstraction - Interface and Implementation
+***
+- **Interface**
+  - Interface refers to way section of code **can communicate with one another**
+  - This typically is done through methods that each class is able to access
+  
+- **Implementation**
+  - The inplementation of these methods, or how these methods are coded,should be hidden
+  - Not accessible outside the class
+  - How is not important, work or not is important
+  
+- If Classes are entangled then one change creates a ripple effect that cause many more changes
+
+- **Creating an Interface through which classes can interact ensure that each piece can individually developed**
+
+#### Abstraction allows the program to be worked on incrementally and prevent it from becoming complex and entangled
 
 
+### **Inheritance**
+***
+   - Inheritance is the principle that allows classes to derive from other class
+- **Class Weapon**
+   - This class contains common attributes and methods to all weapons
+   - weapon.damage() 
+   - weapon.attack()
+   - Class sword
+   - Class Gun
+   - These two classes are different from one another
+   
+- | Super Class|
+  |------------|
+  | Sub class | sub class |
+  |-----------|-----------|
+  
+- Class Hierarchy
+   - You can create many more layer with many more classes in each layer
+   
+- **Access Modifiers**
+   - Access Modifiers changes which class have access to other classes, methods or attributes
+   - Three main Access Modifiers :- 
+   - **1. Public**
+   - **2. Private**
+   - **3. Proctected**
 
+* **Public**
+   - **Public Members** can be access from anywhere in your program
+   
+   - This includes anywhere both inside of the class hierarchy as well as outside in the rest of program
 
-
-
+   - |      |      |         | Food |      |      |        |
+     |------|------|---------|------|------|------|--------|
+     |      | Fruit|         |      |      |Vegetable|     |
+     |Mango |  | Apple |            | Barcoli | | 
