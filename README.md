@@ -180,7 +180,7 @@
    
    - This includes anywhere both inside of the class hierarchy as well as outside in the rest of program
 
-   - |      |      |         | Food |      |      |        |
-     |------|------|---------|------|------|------|--------|
-     |      | Fruit|         |      |      |Vegetable|     |
-     |Mango |  | Apple |            | Barcoli | | 
+   - |      |      |     Food |      |      |
+     |------|----------|------|------|------|
+     |      | Fruit|         |      |Vegetable|  | 
+     |Mango |  | Apple |            | Barcoli |  | 
