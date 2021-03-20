@@ -184,3 +184,78 @@
      |------|----------|------|------|------|
      |      | Fruit|         | Vegetable|  | 
      |Mango |  | Apple |   Broccoli| 
+
+* **Private**
+   - **Private Member** can only access from within the same class that the member is defined
+   - This allows us to create other multiple private members of the same class in different location so that they do not conflict  with another one
+   
+* **Proctected**
+   - **Proctected Member** can be access within the class it is defined as well as any Subclass of that class
+   - This essentially makes proctected members private to the hierarchy in which they are defined
+
+
+
+### **Polymorphism**
+***
+   - Polymorphism describes the **methods that are able to take amny forms**
+   - There are two types of polymorphism
+   - **1. Dynamic/Runtime Polymorphism**
+   - **2. Static/Compiletime Polymorphism**
+
+* **Dynamic Polymorphism**
+  - Occurs during **Runtime of program** when the program being executed
+  - Runtime Polymorphism describe when a method signature is in both
+  - The methods share the **Same name but have different implementation**
+  - The implementation of the Subclass Override Superclass
+  - ```code
+       class Car:
+           drive(miles){
+               car.gas -= 0.04 * miles;
+           }
+           
+       
+       class sportsCar:
+            drive(miles){
+               sportscar.gas -= 0.02 * miles;
+            }
+            
+          
+        mySportsCar.drive(100);
+        // This sportsCar drive() method overrride the Superclass drive() method
+        myCar.drive(100);
+        // While car drive() method same as it is
+    ```
+    
+   - This works because of the form of the method is decided based on where in the class hierarchy it is called
+   
+   - The main benefits of the Dynamic polymorphism is that it allows us to write methods in the Superclass without having to include if or else if which subclass is used when a method is called.
+   - 
+   - The implementation of a method signature that will be used in **determined dynamically as the program is run**  
+
+
+* **Static Polymorphism**
+  - occurs during **compile time** rather than runtime
+  - This refers to when **multiple methods with the same name but different arguments** are defined in the same class
+  
+- Way to differentiate methods of the same name
+
+- Differents numbers of parameters
+  - **Different types of parameters**
+  - **Differents orders of parameters**
+
+- ```code
+       class car:
+           
+           drive(int speed, string destination)
+           
+           drive(int speed, int distance)
+           
+           drive(string destination, int speed)
+           
+  ```
+ 
+- Method Overloading can cause trouble if you do not keep straight which parameters you need for which implementation
+- Using the incorrect arguments may not cause an error if it matches that of another form of the method, which can cause issues
+
+- Overall Polymorphism allows methods to take on many different forms
+- When utilizing polymorphism and method overloading, be sure that you are calling the correct form of the method 
